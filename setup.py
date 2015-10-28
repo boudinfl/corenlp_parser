@@ -1,5 +1,7 @@
 from distutils.core import setup
 
+install_requires = ['lxml']
+    
 setup(name='MinimalCoreNLPParser',
       version='1.0',
       description='Minimal CoreNLP XML Parser in Python',
